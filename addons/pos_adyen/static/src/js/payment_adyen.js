@@ -28,11 +28,6 @@ var PaymentAdyen = PaymentInterface.extend({
         this.most_recent_service_id = id;
     },
 
-    pending_adyen_line() {
-      return this.pos.get_order().paymentlines.find(
-        paymentLine => paymentLine.payment_method.use_payment_terminal === 'adyen' && (!paymentLine.is_done()));
-    },
-
     // private methods
     _reset_state: function () {
         this.was_cancelled = false;
@@ -43,7 +38,7 @@ var PaymentAdyen = PaymentInterface.extend({
 
     _handle_odoo_connection_failure: function (data) {
         // handle timeout
-        var line = this.pending_adyen_line();
+        var line = this.pos.get_order().selected_paymentline;
         if (line) {
             line.set_payment_status('retry');
         }
@@ -214,7 +209,7 @@ var PaymentAdyen = PaymentInterface.extend({
             var notification = status.latest_response;
             var last_diagnosis_service_id = status.last_received_diagnosis_id;
             var order = self.pos.get_order();
-            var line = self.pending_adyen_line();
+            var line = order.selected_paymentline;
 
 
             if (self.last_diagnosis_service_id != last_diagnosis_service_id) {
@@ -282,7 +277,7 @@ var PaymentAdyen = PaymentInterface.extend({
     },
 
     _adyen_handle_response: function (response) {
-        var line = this.pending_adyen_line();
+        var line = this.pos.get_order().selected_paymentline;
 
         if (response.error && response.error.status_code == 401) {
             this._show_error(_t('Authentication failed. Please check your Adyen credentials.'));

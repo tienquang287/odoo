@@ -51,7 +51,7 @@ msgstr ""
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page
 msgid "<small>%</small>"
-msgstr "<small>%</small>"
+msgstr ""
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.res_config_settings_view_form
@@ -59,13 +59,11 @@ msgid ""
 "<span class=\"o_form_label\">Live Chat</span>\n"
 "                        <span class=\"fa fa-lg fa-globe\" title=\"Values set here are website-specific.\" groups=\"website.group_multi_website\"/>"
 msgstr ""
-"<span class=\"o_form_label\">Xat en viu</span>\n"
-"                        <span class=\"fa fa-lg fa-globe\" title=\"Values set here are website-specific.\" groups=\"website.group_multi_website\"/>"
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page
 msgid "<span>Livechat Channel</span>"
-msgstr "<span>Canal de Livechat</span>"
+msgstr ""
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.website_visitor_view_search
@@ -104,7 +102,7 @@ msgstr "Conversa"
 #: model_terms:ir.ui.view,arch_db:website_livechat.website_visitor_view_form
 #: model_terms:ir.ui.view,arch_db:website_livechat.website_visitor_view_kanban
 msgid "Chats"
-msgstr "Xats"
+msgstr ""
 
 #. module: website_livechat
 #: model:ir.model,name:website_livechat.model_res_config_settings
@@ -114,7 +112,7 @@ msgstr "Ajustos de configuració"
 #. module: website_livechat
 #: model:ir.model.fields,help:website_livechat.field_im_livechat_channel__website_description
 msgid "Description of the channel displayed on the website page"
-msgstr "Descripció del canal que es mostra a la pàgina web"
+msgstr ""
 
 #. module: website_livechat
 #: model:ir.model,name:website_livechat.model_mail_channel
@@ -146,7 +144,7 @@ msgstr "Historial"
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.website_visitor_view_search
 msgid "In Conversation"
-msgstr "En conversa"
+msgstr ""
 
 #. module: website_livechat
 #: model:ir.model.fields,field_description:website_livechat.field_im_livechat_channel__is_published
@@ -226,12 +224,12 @@ msgstr "En línia"
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.website_visitor_view_kanban
 msgid "Operator Avatar"
-msgstr "Avatar de l'operador"
+msgstr ""
 
 #. module: website_livechat
 #: model:ir.model.fields,field_description:website_livechat.field_website_visitor__livechat_operator_name
 msgid "Operator Name"
-msgstr "Nom de l'operador"
+msgstr ""
 
 #. module: website_livechat
 #: code:addons/website_livechat/models/website_visitor.py:0
@@ -279,7 +277,7 @@ msgstr "El"
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page
 msgid "The Team"
-msgstr "L'equip"
+msgstr ""
 
 #. module: website_livechat
 #: model:ir.model.fields,help:website_livechat.field_im_livechat_channel__website_url
@@ -290,7 +288,7 @@ msgstr "URL completa per accedir al document a través del lloc web."
 #: code:addons/website_livechat/models/mail_channel.py:0
 #, python-format
 msgid "The visitor"
-msgstr "El visitant"
+msgstr ""
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_list_page
@@ -317,12 +315,12 @@ msgstr "Visitant"
 #: code:addons/website_livechat/static/src/components/visitor_banner/visitor_banner.xml:0
 #, python-format
 msgid "Visitor is online"
-msgstr "El visitant està en línia"
+msgstr ""
 
 #. module: website_livechat
 #: model:ir.actions.act_window,name:website_livechat.website_visitor_livechat_session_action
 msgid "Visitor's Sessions"
-msgstr "Sessions del visitant"
+msgstr ""
 
 #. module: website_livechat
 #: model:ir.model.fields,field_description:website_livechat.field_website_visitor__mail_channel_ids
@@ -373,7 +371,7 @@ msgstr ""
 #: code:addons/website_livechat/models/mail_channel.py:0
 #, python-format
 msgid "an operator"
-msgstr "un operador"
+msgstr ""
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page

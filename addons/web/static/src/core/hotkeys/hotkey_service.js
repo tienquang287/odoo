@@ -73,15 +73,14 @@ export const hotkeyService = {
                 return;
             }
 
-            // Replace all [accesskey] attrs by [data-hotkey] on all elements.
-            // This is needed to take over on the default accesskey behavior
-            // and also to avoid any conflict with it.
-            const elementsWithAccessKey = document.querySelectorAll("[accesskey]");
-            for (const el of elementsWithAccessKey) {
-                if (el instanceof HTMLElement) {
-                    el.dataset.hotkey = el.accessKey;
-                    el.removeAttribute("accesskey");
-                }
+            // FIXME : this is a temporary hack. It replaces all [accesskey] attrs by [data-hotkey] on all elements.
+            const elementsWithoutDataHotkey = getVisibleElements(
+                ui.activeElement,
+                "[accesskey]:not([data-hotkey])"
+            );
+            for (const el of elementsWithoutDataHotkey) {
+                el.dataset.hotkey = el.accessKey;
+                el.removeAttribute("accesskey");
             }
 
             // Special case: open hotkey overlays

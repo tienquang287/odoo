@@ -55,7 +55,7 @@ msgstr "<span style=\"margin: 0px 5px;\">:</span>"
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid "Apply a down payment"
-msgstr "Aplica un pagament abaix"
+msgstr ""
 
 #. module: pos_sale
 #. openerp-web
@@ -117,18 +117,18 @@ msgstr "Entregat de"
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid "Do you want to load the SN/Lots linked to the Sales Order?"
-msgstr "Voleu carregar els SN/Lots vinculats a l'ordre de vendes?"
+msgstr ""
 
 #. module: pos_sale
 #: model:product.product,name:pos_sale.default_downpayment_product
 #: model:product.template,name:pos_sale.default_downpayment_product_product_template
 msgid "Down Payment (POS)"
-msgstr "Pagament de baixa (POS)"
+msgstr ""
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__down_payment_details
 msgid "Down Payment Details"
-msgstr "Detalls del pagament de baixa"
+msgstr ""
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_config__down_payment_product_id
@@ -163,14 +163,12 @@ msgid ""
 "It seems that you didn't configure a down payment product in your point of sale.\n"
 "                        You can go to your point of sale configuration to choose one."
 msgstr ""
-"Sembla que no vas configurar un producte de pagament en el teu punt de venda.\n"
-"                        Podeu anar al punt de venda per triar-ne un."
 
 #. module: pos_sale
 #: code:addons/pos_sale/models/sale_order.py:0
 #, python-format
 msgid "Linked POS Orders"
-msgstr "Ordres TPV enllaçades"
+msgstr ""
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__sale_order_origin_id
@@ -224,7 +222,7 @@ msgstr "No"
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid "No down payment product"
-msgstr "No hi ha cap producte de pagament"
+msgstr ""
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_crm_team__pos_sessions_open_count
@@ -248,7 +246,7 @@ msgstr "Comanda"
 #: model:ir.model.fields,field_description:pos_sale.field_sale_order__pos_order_line_ids
 #: model:ir.model.fields,field_description:pos_sale.field_sale_order_line__pos_order_line_ids
 msgid "Order lines Transfered to Point of Sale"
-msgstr "Línies de comanda transferides al punt de venda"
+msgstr ""
 
 #. module: pos_sale
 #: model:ir.model.fields.selection,name:pos_sale.selection__sale_report__state__paid
@@ -303,14 +301,14 @@ msgstr "Validat"
 #: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
 #, python-format
 msgid "Previous Order List"
-msgstr "Llista de comandes anterior"
+msgstr ""
 
 #. module: pos_sale
 #. openerp-web
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid "Products not available in POS"
-msgstr "Productes no disponibles en POS"
+msgstr ""
 
 #. module: pos_sale
 #. openerp-web
@@ -331,14 +329,14 @@ msgstr "Pressupost enviat"
 #: code:addons/pos_sale/static/src/xml/SetSaleOrderButton.xml:0
 #, python-format
 msgid "Quotation/Order"
-msgstr "Pressupost/Ordre"
+msgstr ""
 
 #. module: pos_sale
 #. openerp-web
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid "SN/Lots Loading"
-msgstr "Càrrega SN/Lots"
+msgstr ""
 
 #. module: pos_sale
 #. openerp-web
@@ -346,7 +344,7 @@ msgstr "Càrrega SN/Lots"
 #: code:addons/pos_sale/static/src/xml/ProductScreen/Orderline.xml:0
 #, python-format
 msgid "SO"
-msgstr "SO"
+msgstr ""
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order__sale_order_count
@@ -387,7 +385,7 @@ msgstr "Equip de vendes"
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.pos_config_view_form_pos_sale
 msgid "Sales are reported to the following sales team"
-msgstr "Les vendes es comuniquen al següent equip de vendes"
+msgstr ""
 
 #. module: pos_sale
 #. openerp-web
@@ -424,7 +422,7 @@ msgstr "Sessions en Procés"
 #: code:addons/pos_sale/static/src/xml/SetSaleOrderButton.xml:0
 #, python-format
 msgid "Set Sale Order"
-msgstr "Estableix l'ordre de venda"
+msgstr ""
 
 #. module: pos_sale
 #. openerp-web
@@ -434,20 +432,18 @@ msgid ""
 "Some of the products in your Sale Order are not available in POS, do you "
 "want to import them?"
 msgstr ""
-"Alguns dels productes de la seva Ordre de Venda no estan disponibles en TPV,"
-" els vols importar?"
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__sale_order_line_id
 msgid "Source Sale Order Line"
-msgstr "Línia de l'ordre de venda de la font"
+msgstr ""
 
 #. module: pos_sale
 #. openerp-web
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid "Settle the order"
-msgstr "Estableix la comanda"
+msgstr ""
 
 #. module: pos_sale
 #. openerp-web
@@ -481,13 +477,12 @@ msgstr ""
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.pos_config_view_form_pos_sale
 msgid "This product will be applied when down payment is made"
-msgstr "Aquest producte s'aplicarà quan es realitzi el pagament"
+msgstr ""
 
 #. module: pos_sale
 #: model:ir.model.fields,help:pos_sale.field_pos_config__down_payment_product_id
 msgid "This product will be used as down payment on a sale order."
 msgstr ""
-"Aquest producte s'utilitzarà com a pagament de baixa en una ordre de venda."
 
 #. module: pos_sale
 #. openerp-web
@@ -503,8 +498,6 @@ msgid ""
 "Transfered<br/>\n"
 "                                from Sale"
 msgstr ""
-"Transferit<br/>\n"
-"                               de Venta"
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.view_order_form_inherit_pos_sale
@@ -512,15 +505,13 @@ msgid ""
 "Transfered<br/>\n"
 "                                to POS"
 msgstr ""
-"Transferit<br/>\n"
-"                               al TPV"
 
 #. module: pos_sale
 #. openerp-web
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderFetcher.js:0
 #, python-format
 msgid "Unable to fetch orders if offline."
-msgstr "No s'han pogut recuperar les comandes si estan fora de línia."
+msgstr ""
 
 #. module: pos_sale
 #: model:product.product,uom_name:pos_sale.default_downpayment_product
