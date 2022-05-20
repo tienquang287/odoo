@@ -438,7 +438,7 @@ msgstr ""
 #: code:addons/website/static/src/components/configurator/configurator.xml:0
 #, python-format
 msgid "4 steps"
-msgstr "たった４ステップで"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_map_options
@@ -1298,7 +1298,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.contactus
 #: model_terms:website.page,arch_db:website.contactus_page
 msgid "<span class=\"s_website_form_label_content\">Phone Number</span>"
-msgstr "<span class=\"s_website_form_label_content\">電話番号</span>"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus
@@ -1307,14 +1307,12 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Subject</span>\n"
 "                                                            <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">題目</span>\n"
-"                                                            <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus
 #: model_terms:website.page,arch_db:website.contactus_page
 msgid "<span class=\"s_website_form_label_content\">Your Company</span>"
-msgstr "<span class=\"s_website_form_label_content\">会社</span>"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus
@@ -1336,7 +1334,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.contactus
 #: model_terms:website.page,arch_db:website.contactus_page
 msgid "<span class=\"s_website_form_label_content\">Your Question</span>"
-msgstr "<span class=\"s_website_form_label_content\">ご質問</span>"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.user_navbar
@@ -2750,7 +2748,7 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.editor.xml:0
 #, python-format
 msgid "Click on"
-msgstr "右上の"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_process_steps
@@ -2994,8 +2992,6 @@ msgid ""
 "Contact us about anything related to our company or services.<br/>\n"
 "                                    We'll do our best to get back to you as soon as possible."
 msgstr ""
-"会社およびサービスに関するご質問はこちらからご連絡ください。<br/>\n"
-"                                    できるだけ早く返信できるよう最善を尽くします。"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_contact
@@ -3262,7 +3258,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.view_website_form
 msgid "Custom Code"
-msgstr "カスタムコード"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -5224,7 +5220,7 @@ msgstr ""
 #: code:addons/website/static/src/components/configurator/configurator.xml:0
 #, python-format
 msgid "I want"
-msgstr "作りたいウェブサイトは、"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_theme_ir_asset__id
@@ -5323,7 +5319,7 @@ msgstr ""
 msgid ""
 "If you discard the current edits, all unsaved changes will be lost. You can "
 "cancel to return to edit mode."
-msgstr "現在の編集を破棄した場合、未保存の全ての変更が失われます。編集モードに戻るにはキャンセルしてください。"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -7731,7 +7727,7 @@ msgstr "再注文"
 #: code:addons/website/static/src/components/configurator/configurator.xml:0
 #, python-format
 msgid "Ready to build the"
-msgstr "準備はできていますか？"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -7855,7 +7851,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.theme_view_kanban
 msgid "Remove theme"
-msgstr "テーマを削除"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -8514,7 +8510,7 @@ msgstr "規模"
 #: code:addons/website/static/src/components/configurator/configurator.xml:0
 #, python-format
 msgid "Skip and start from scratch"
-msgstr "スキップしてゼロから始める"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_tabs_options
@@ -9774,7 +9770,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.theme_view_kanban
 msgid "Update theme"
-msgstr "テーマを更新"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -10289,7 +10285,7 @@ msgstr "内容を確認の上返信差し上げます。今しばらくお待ち
 #: code:addons/website/static/src/components/configurator/configurator.xml:0
 #, python-format
 msgid "We'll set you up and running in"
-msgstr "簡単に設定できます。"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_visitor_view_tree
@@ -10909,14 +10905,14 @@ msgstr ""
 #: code:addons/website/static/src/components/configurator/configurator.js:0
 #, python-format
 msgid "a blog"
-msgstr "ブログ"
+msgstr ""
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/components/configurator/configurator.js:0
 #, python-format
 msgid "a business website"
-msgstr "ビジネスウェブサイト"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -10937,21 +10933,21 @@ msgstr ""
 #: code:addons/website/static/src/components/configurator/configurator.js:0
 #, python-format
 msgid "an elearning platform"
-msgstr "Eラーニングプラットフォーム"
+msgstr ""
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/components/configurator/configurator.js:0
 #, python-format
 msgid "an event website"
-msgstr "イベントウェブサイト"
+msgstr ""
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/components/configurator/configurator.js:0
 #, python-format
 msgid "an online store"
-msgstr "オンラインストア"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -11205,7 +11201,7 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.editor.xml:0
 #, python-format
 msgid "in the top right corner to start designing."
-msgstr "ボタンをクリックしてデザインを始めましょう。"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_links
@@ -11293,7 +11289,7 @@ msgstr ""
 #: code:addons/website/static/src/components/configurator/configurator.xml:0
 #, python-format
 msgid "perfect website?"
-msgstr "最適なウェブサイトを構築しましょう！"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.theme_view_form_preview
@@ -11415,7 +11411,7 @@ msgstr "ウェブサイト"
 #: code:addons/website/static/src/components/configurator/configurator.xml:0
 #, python-format
 msgid "with the main objective to"
-msgstr "主な目的は、"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.qweb_500

@@ -1045,9 +1045,10 @@ class Proxy(http.Controller):
             if not data:
                 raise werkzeug.exceptions.BadRequest()
             from werkzeug.test import Client
+            from werkzeug.wrappers import BaseResponse
             base_url = request.httprequest.base_url
             query_string = request.httprequest.query_string
-            client = Client(http.root, werkzeug.wrappers.Response)
+            client = Client(http.root, BaseResponse)
             headers = {'X-Openerp-Session-Id': request.session.sid}
             return client.post('/' + path, base_url=base_url, query_string=query_string,
                                headers=headers, data=data)
@@ -1491,9 +1492,7 @@ class Binary(http.Controller):
                 filename = unicodedata.normalize('NFD', ufile.filename)
 
             try:
-                cids = request.httprequest.cookies.get('cids', str(request.env.user.company_id.id))
-                allowed_company_ids = [int(cid) for cid in cids.split(',')]
-                attachment = Model.with_context(allowed_company_ids=allowed_company_ids).create({
+                attachment = Model.create({
                     'name': filename,
                     'datas': base64.encodebytes(ufile.read()),
                     'res_model': model,

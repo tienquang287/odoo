@@ -13,7 +13,6 @@
 # grupoda2 <dmitrijus.ivanovas@gmail.com>, 2022
 # Martin Trigaux, 2022
 # Linas Versada <linaskrisiukenas@gmail.com>, 2022
-# Jonas Zinkevicius <jozi@odoo.com>, 2022
 # 
 msgid ""
 msgstr ""
@@ -21,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:28+0000\n"
 "PO-Revision-Date: 2021-09-14 12:20+0000\n"
-"Last-Translator: Jonas Zinkevicius <jozi@odoo.com>, 2022\n"
+"Last-Translator: Linas Versada <linaskrisiukenas@gmail.com>, 2022\n"
 "Language-Team: Lithuanian (https://www.transifex.com/odoo/teams/41243/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,12 +61,6 @@ msgid ""
 "                                            Active Users\n"
 "                                        </span>"
 msgstr ""
-"<span class=\"o_form_label\" attrs=\"{'invisible':[('active_user_count', '&gt;', '1')]}\">\n"
-"                                            Aktyvus Naudotojas\n"
-"                                        </span>\n"
-"                                        <span class=\"o_form_label\" attrs=\"{'invisible':[('active_user_count', '&lt;=', '1')]}\">\n"
-"                                            Aktyvūs Naudotojai\n"
-"                                        </span>"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -80,13 +73,6 @@ msgid ""
 "                                        </span>\n"
 "                                        <br/>"
 msgstr ""
-"<span class=\"o_form_label\" attrs=\"{'invisible':[('company_count', '&gt;', '1')]}\">\n"
-"                                            Įmonę\n"
-"                                        </span>\n"
-"                                        <span class=\"o_form_label\" attrs=\"{'invisible':[('company_count', '&lt;=', '1')]}\">\n"
-"                                            Įmonės\n"
-"                                        </span>\n"
-"                                        <br/>"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -98,12 +84,6 @@ msgid ""
 "                                                Languages\n"
 "                                            </span>"
 msgstr ""
-"<span class=\"o_form_label\" attrs=\"{'invisible':[('language_count', '&gt;', '1')]}\">\n"
-"                                                Kalba\n"
-"                                            </span>\n"
-"                                            <span class=\"o_form_label\" attrs=\"{'invisible':[('language_count', '&lt;=', '1')]}\">\n"
-"                                                Kalbos\n"
-"                                            </span>"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -151,21 +131,21 @@ msgstr "Prieiga neleidžiama"
 #: code:addons/base_setup/static/src/xml/res_config_dev_tool.xml:0
 #, python-format
 msgid "Activate the developer mode"
-msgstr "Įgalinti kūrėjo režimą"
+msgstr "Aktyvuoti kūrėjo rėžimą"
 
 #. module: base_setup
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_dev_tool.xml:0
 #, python-format
 msgid "Activate the developer mode (with assets)"
-msgstr "Įgalinti kūrėjo režimą (su papildomais ištekliais)"
+msgstr "Aktyvuoti kūrėjo režimą"
 
 #. module: base_setup
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_dev_tool.xml:0
 #, python-format
 msgid "Activate the developer mode (with tests assets)"
-msgstr "Įgalinti kūrėjo režimą (su bandomaisiais ištekliais)"
+msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -224,8 +204,6 @@ msgid ""
 "Automatically generate counterpart documents for orders/invoices between "
 "companies"
 msgstr ""
-"Automatiškai generuoti užsakymų ir (arba) sąskaitų faktūrų tarp vidinių "
-"įmonių priešpriešinius dokumentus"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -305,7 +283,7 @@ msgstr "Kurti ir pridėti \"Google Drive\" dokumentus prie bet kokio įrašo"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__external_email_server_default
 msgid "Custom Email Servers"
-msgstr "Tinkinti Elektroninio Pašto Serveriai"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__report_footer
@@ -405,7 +383,7 @@ msgstr "Bendri nustatymai"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Geo Localization"
-msgstr "Geo Lokalizacija"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_base_geolocalize
@@ -415,12 +393,12 @@ msgstr ""
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "GeoLocalize your partners"
-msgstr "Naudokite GeoLokalizaciją Jūsų partneriams."
+msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_product_images
 msgid "Get product pictures using barcode"
-msgstr "Gaukite produktų nuotraukas naudodami brūkšninį kodą"
+msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -554,7 +532,7 @@ msgstr "Įmonių skaičius"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__language_count
 msgid "Number of Languages"
-msgstr "Kalbų Skaičius"
+msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form

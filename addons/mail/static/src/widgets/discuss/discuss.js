@@ -1,7 +1,5 @@
 /** @odoo-module **/
 
-// ensure component is registered beforehand.
-import '@mail/components/discuss/discuss';
 import { getMessagingComponent } from "@mail/utils/messaging_component";
 
 import AbstractAction from 'web.AbstractAction';

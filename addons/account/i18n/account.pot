@@ -7327,13 +7327,6 @@ msgid "Journal Entry Date"
 msgstr ""
 
 #. module: account
-#. openerp-web
-#: code:addons/account/static/src/xml/account_payment.xml:0
-#, python-format
-msgid "Journal Entry Info"
-msgstr ""
-
-#. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_print_journal__sort_selection__move_name
 #: model_terms:ir.ui.view,arch_db:account.report_journal
 msgid "Journal Entry Number"
@@ -7450,13 +7443,6 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_automatic_entry_wizard__journal_id
 msgid "Journal where to create the entry."
-msgstr ""
-
-#. module: account
-#. openerp-web
-#: code:addons/account/static/src/xml/account_payment.xml:0
-#, python-format
-msgid "Journal:"
 msgstr ""
 
 #. module: account
@@ -15520,24 +15506,12 @@ msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
-msgid ""
-"for this customer. You can allocate them to mark this credit note as paid."
-msgstr ""
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "for this customer. You can allocate them to mark this invoice as paid."
 msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "for this vendor. You can allocate them to mark this bill as paid."
-msgstr ""
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.view_move_form
-msgid ""
-"for this vendor. You can allocate them to mark this credit note as paid."
 msgstr ""
 
 #. module: account
@@ -15615,12 +15589,12 @@ msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
-msgid "outstanding credits"
+msgid "outstanding debits"
 msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
-msgid "outstanding debits"
+msgid "outstanding payments"
 msgstr ""
 
 #. module: account

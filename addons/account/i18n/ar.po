@@ -12,7 +12,6 @@
 # jahzar <jahzar@gmail.com>, 2022
 # Walid Slim, 2022
 # Malaz Abuidris <msea@odoo.com>, 2022
-# Mohammad Ali, 2022
 # 
 msgid ""
 msgstr ""
@@ -20,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-18 09:52+0000\n"
 "PO-Revision-Date: 2021-09-14 12:18+0000\n"
-"Last-Translator: Mohammad Ali, 2022\n"
+"Last-Translator: Malaz Abuidris <msea@odoo.com>, 2022\n"
 "Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -167,7 +166,7 @@ msgstr "(object._get_report_base_filename())"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_journal
 msgid "- Posted Entries Only"
-msgstr "القيود المُرحلة فقط"
+msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_journal
@@ -7763,13 +7762,6 @@ msgid "Journal Entry Date"
 msgstr "تاريخ قيد اليومية "
 
 #. module: account
-#. openerp-web
-#: code:addons/account/static/src/xml/account_payment.xml:0
-#, python-format
-msgid "Journal Entry Info"
-msgstr ""
-
-#. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_print_journal__sort_selection__move_name
 #: model_terms:ir.ui.view,arch_db:account.report_journal
 msgid "Journal Entry Number"
@@ -7888,13 +7880,6 @@ msgstr "دفتر اليومية الذي تم فيه ترحيل القيد ال�
 #: model:ir.model.fields,help:account.field_account_automatic_entry_wizard__journal_id
 msgid "Journal where to create the entry."
 msgstr "اليومية التي يتم إنشاء القيد فيها "
-
-#. module: account
-#. openerp-web
-#: code:addons/account/static/src/xml/account_payment.xml:0
-#, python-format
-msgid "Journal:"
-msgstr ""
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_journal_form
@@ -16485,12 +16470,6 @@ msgstr "مثال: INV"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
-msgid ""
-"for this customer. You can allocate them to mark this credit note as paid."
-msgstr ""
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "for this customer. You can allocate them to mark this invoice as paid."
 msgstr "لهذا العميل. يمكنك تخصيصهم لتحديد حالة هذه الفاتورة إلى مدفوعة. "
 
@@ -16498,12 +16477,6 @@ msgstr "لهذا العميل. يمكنك تخصيصهم لتحديد حالة �
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "for this vendor. You can allocate them to mark this bill as paid."
 msgstr "لهذا المورّد. يمكنك تخصيصهم لتحديد حالة هذه الفاتورة كمدفوعة. "
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.view_move_form
-msgid ""
-"for this vendor. You can allocate them to mark this credit note as paid."
-msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_position_form
@@ -16583,13 +16556,13 @@ msgstr "في"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
-msgid "outstanding credits"
-msgstr ""
+msgid "outstanding debits"
+msgstr "الديون المستحقة"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
-msgid "outstanding debits"
-msgstr "الديون المستحقة"
+msgid "outstanding payments"
+msgstr "مدفوعات مُستحقَّة "
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_invoice_report__payment_state__paid

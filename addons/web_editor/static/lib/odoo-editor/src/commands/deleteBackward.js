@@ -15,7 +15,6 @@ import {
     isVisible,
     isVisibleStr,
     leftPos,
-    rightPos,
     moveNodes,
     nodeSize,
     prepareUpdate,
@@ -23,8 +22,6 @@ import {
     splitTextNode,
     isMediaElement,
     isVisibleEmpty,
-    isNotEditableNode,
-    createDOMPathGenerator,
 } from '../utils/utils.js';
 
 Text.prototype.oDeleteBackward = function (offset, alreadyMoved = false) {
@@ -68,10 +65,6 @@ Text.prototype.oDeleteBackward = function (offset, alreadyMoved = false) {
     setSelection(parentNode, firstSplitOffset);
 };
 
-const isDeletable = (node) => {
-    return isMediaElement(node) || isNotEditableNode(node);
-}
-
 HTMLElement.prototype.oDeleteBackward = function (offset, alreadyMoved = false, offsetLimit) {
     const contentIsZWS = this.textContent === '\u200B';
     let moveDest;
@@ -81,8 +74,15 @@ HTMLElement.prototype.oDeleteBackward = function (offset, alreadyMoved = false, 
             throw UNREMOVABLE_ROLLBACK_CODE;
         }
         if (
-            isDeletable(leftNode)
+            isMediaElement(leftNode) ||
+            (leftNode.getAttribute &&
+                typeof leftNode.getAttribute('contenteditable') === 'string' &&
+                leftNode.getAttribute('contenteditable').toLowerCase() === 'false')
         ) {
+            leftNode.remove();
+            return;
+        }
+        if (leftNode.getAttribute && leftNode.getAttribute('contenteditable') === 'false') {
             leftNode.remove();
             return;
         }
@@ -162,16 +162,6 @@ HTMLElement.prototype.oDeleteBackward = function (offset, alreadyMoved = false, 
         moveDest = leftPos(this);
     }
 
-    const domPathGenerator = createDOMPathGenerator(DIRECTIONS.LEFT, {
-        leafOnly: true,
-        stopTraverseFunction: isDeletable,
-    });
-    const domPath = domPathGenerator(this, offset)
-    const leftNode = domPath.next().value;
-    if (leftNode && isDeletable(leftNode)) {
-        const [parent, offset] = rightPos(leftNode);
-        return parent.oDeleteBackward(offset, alreadyMoved);
-    }
     let node = this.childNodes[offset];
     const nextSibling = this.nextSibling;
     let currentNodeIndex = offset;
